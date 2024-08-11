@@ -69,7 +69,7 @@ p {
 
 /* ---------------------Header-Section-Start------------------ */
 header {
-  background-image: url('/assets/img/bg-header.jpg');
+  background-image: url('assets/img/bg-header.jpg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -289,7 +289,7 @@ header.nav-link:hover {
 }
 
 .hero-banner {
-  background-image: url('/assets/img/mango.png');
+  background-image: url('assets/img/mango.png');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 10% 39%;
@@ -344,7 +344,7 @@ header.nav-link:hover {
 }
 
 .about-us-img {
-  mask-image: url('/assets/img/mask-img.png');
+  mask-image: url('assets/img/mask-img.png');
   mask-repeat: no-repeat;
   mask-size: contain;
   mask-position: center center;
@@ -430,7 +430,7 @@ svg {
 /* ---------------------Services-Section-End------------------ */
 /* ---------------------Why-Choose-Us-Section-Start------------------ */
 .why-choose-us{
-  background-image: url('/assets/img/why-choose-us-bg.png');
+  background-image: url('assets/img/why-choose-us-bg.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -491,7 +491,7 @@ svg {
 
 }
 .testimonial-bg{
-  background-image: url('/assets/img/testimonial-bg.png');
+  background-image: url('assets/img/testimonial-bg.png');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -524,7 +524,7 @@ svg {
   color: #FF8534;
 }
 .testimonial-img{
-  background-image: url('/assets/img/img_3.png');
+  background-image: url('assets/img/img_3.png');
   background-repeat: no-repeat;
   background-size: 87%;
   background-position: center center;
