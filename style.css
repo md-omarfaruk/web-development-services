@@ -451,6 +451,13 @@ svg {
   font-weight: 400;
   font-size: 14px;
 }
+.why-choose-us-arrow{
+    position: absolute;
+    top: 86px;
+    left: -110px;
+    max-width: 110px;
+  
+}
 /* ---------------------Why-Choose-Us-Section-End------------------ */
 /* ---------------------plan-Section-Star------------------ */
 .plan .card-body h1 {
@@ -465,6 +472,10 @@ svg {
 }
 .plan .card{
   padding: 0 32px ;
+}
+sup{
+  font-size: 31.25px;
+  margin-top: -15px;
 }
 .plan-btn{
   color: #FF8534;
@@ -622,7 +633,7 @@ header .nav-btn{
   .about-slider {
     padding: 32px 0 0 0;
   }
-  .testimonial-arrow{
+  .testimonial-arrow, .why-choose-us-arrow{
    display: none;  
   }
   /* .px-5{
