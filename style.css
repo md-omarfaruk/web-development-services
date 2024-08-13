@@ -102,10 +102,16 @@ header nav {
 header.nav-link:hover {
   color: #FF8534;
 }
-.nav-link.active {
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
   color: #FF8534;
 }
-
+.navbar-toggler {
+  border: none;
+  color: #FF8534;
+}
+.navbar-toggler-icon {
+  color: #FF8534;
+}
 
 .dropdown-menu {
   position: absolute;
@@ -623,7 +629,31 @@ header .nav-btn{
     padding-top: 0px !important;
     padding-bottom: 0px !important;
   } */
+   .navbar-collapse.collapse.show{
+    background-color: white;
+    padding: 20px 30px;
+   }
+   .navbar-brand img{
+    vertical-align: baseline !important;
+   }
+   .hero-desc-btn{
+    justify-content: center;
+   }
+   .mt-5, .my-5 {
+    margin-top: 0 !important;
+  }
+  .down-card{
+    margin-top: 0px;
+  }
+  footer .plan-condition{
+    text-align: center;
+  }
+  .footer-nav{
+    justify-content: center;
+  }
 }
+
+
 /* ------------------------------Hero-Video-Btn-Animation-Start------------------------ */
 .my-animation{
   position: absolute;
