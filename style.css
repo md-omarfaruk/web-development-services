@@ -82,7 +82,7 @@ header {
 }
 
 header nav {
-  height: 96px;
+  padding: 20px 0;
   border-color: #dcdcde;
   border-style: solid;
   border-width: 0px 0px 1px 0px;
@@ -92,12 +92,12 @@ header nav {
 .header-menu {
   padding-right: 0;
 }
-.nav-link {
+a.nav-link {
   color: #3b3664;
   font-size: 16px;
   line-height: 24px;
   font-weight: 700;
-  padding-right: 19px;
+  padding-right: 25px !important;
 }
 header.nav-link:hover {
   color: #FF8534;
@@ -161,7 +161,7 @@ header.nav-link:hover {
   line-height: 12px;
   letter-spacing: 1px;
   padding: 15px 30px;
-  margin-right: 20px;
+  margin-right: 10px;
   background: linear-gradient(135deg, rgba(255, 223, 115, 1) 0%, rgba(255, 133, 52, 1) 60%);
 }
 
@@ -613,7 +613,35 @@ footer input[type=email]:focus {
 }
 
 @media (max-width: 767.98px) {
-header .nav-btn{
+  a.nav-link {
+    color: #3b3664;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+    padding: 8px 0 !important;
+  }
+  .dropdown-item {
+    color: #3b3664;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    padding: 13px 10px;
+  }
+  .dropdown-two.position-relative .dropdown-item {
+    color: #3b3664;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    padding: 13px 10px;
+  }
+  .dropdown-two.position-relative .dropdown-menu {
+    position: absolute;
+    top: 0px;
+    left: 200px;
+    display: none;
+    border: none;
+  }
+header .navbar-nav .nav-item.ps-3{
     visibility: hidden;
   }
   .arrow-img{
@@ -642,7 +670,8 @@ header .nav-btn{
   } */
    .navbar-collapse.collapse.show{
     background-color: white;
-    padding: 20px 30px;
+    padding: 20px;
+    margin-top: 5px;
    }
    .navbar-brand img{
     vertical-align: baseline !important;
@@ -661,6 +690,9 @@ header .nav-btn{
   }
   .footer-nav{
     justify-content: center;
+  }
+  .testimonial-slider .d-flex.justify-content-center.mt-5{
+    margin-top: 48px !important;
   }
 }
 
